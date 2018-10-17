@@ -1,14 +1,14 @@
 # Crack the Safe Project
 
 ## Overview: 
-In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, Scissors game will take user choice, generate a computer choice, and display the winner to the screen. To create this project, coders will use jQuery to take user input and display data, the Math Library to generate a random choice, and conditionals to determine the winner.
+In this unit, coders will create a game to simulate guessing a safe's code. The game will generate a safe code consisting of 4 digits. The user will then enter 4 digits to try and guess the code. The game will then tell the user how many numbers entered are the right number in the correct place and how many numbers were a number that is in the code, but not in the correct place. The user will then try different combinations until they are alerted that they won. To create this project, coders will use jQuery to take user input and display data, the Math Library to generate a random choice, and conditionals to determine the winner.
 
 ## Day 1
 
 #### Planning
 - [ ] Complete the project planning document.
 #### Set-Up
-- [x] Go to the repository at https://github.com/ScriptEdcurriculum/rockpaperscissors
+- [x] Go to the repository at https://github.com/juliapohlmann/crackthesafe
 - [ ] Fork this repository to your github account and clone to a new workspace
 - [ ] Add, commit, and push your changes
 - [ ] Make your site live on gh-pages
