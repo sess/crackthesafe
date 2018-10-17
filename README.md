@@ -1,4 +1,4 @@
-# Rock Paper Scissors Project
+# Crack the Safe Project
 
 ## Overview: 
 In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, Scissors game will take user choice, generate a computer choice, and display the winner to the screen. To create this project, coders will use jQuery to take user input and display data, the Math Library to generate a random choice, and conditionals to determine the winner.
@@ -17,7 +17,7 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 - [ ] Add any more HTML elements you will need to the page
 
 ### JavaScript
-- [ ] Add a click handler that displays the value of the input within the div with the id `#userChoice`
+- [ ] Add a click handler that displays the value of each number input within the div with the id `#userChoice`
 
 #### Wrap
 - [ ] Push your changes!
@@ -27,22 +27,21 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 
 ### Javascript 
 
-- [ ] Outside of your click handler, declare 3 variables (userChoice, computerChoice and winner) and assign them values of empty strings
-- [ ] Outside of your click handler, declare a randomNumber variable and set it equal to 0
-- [ ] In your click handler, generate a random number and assign it to the randomNumber variable
-- [ ] In your click handler, store the input value in the userChoice variable	
-- [ ] In your click handler, display userChoice to the screen
+- [ ] Outside of your click handler, declare 4 variables (randomNumber1, randomNumber2, randomNumber3, randomNumber4) and generate a random number for each variable. Be sure to save these as strings though! 
+- [ ] Outside of your click handler, declare 4 variables (numberGuess1, numberGuess2, numberGuess3, numberGuess4) and assign them values of empty strings
+- [ ] Outside of your click handler, declare 2 variables (numbersCorrect, numbersInPlace) and assign them values of 0
+- [ ] In your click handler, store each input value in the corresponding numberGuess variable
+- [ ] In your click handler, display each input value in userChoice
 #### Wrap
 - [ ] Push your changes!
 
 ## Day 3
 
 ## JavaScript
-- [ ] Write a conditional statement which, given the number range of randomNumber, assigns ‘rock’, ‘paper’ or ‘scissors’ to the computerChoice variable 
-- [ ] Display the computerChoice to the screen
-- [ ] Write a conditional statement that compares the userChoice to the computerChoice to determine the winner of the game
-- [ ] Display the winner to the screen in the result div
-- [ ] Clear the input value once a result is displayed
+- [ ] Write a conditional statement that compares each number to see if the number is correct for that position and to see if the number is correct for any other position
+- [ ] Display the amount of correct numbers, and how many numbers were in the correct place
+- [ ] If the correct code was entered, display a message to the user letting them know they won
+
 
 #### Wrap
 - [ ] Push your changes!
@@ -50,13 +49,11 @@ In this unit, coders will create a Rock, Paper, Scissors game. The Rock, Paper, 
 ## Projects Extensions:
 - [ ] Style the page to fit your personality
 - [ ] Validates input so that it will return “Not valid input” if the user types in a wrong choice. 
-- [ ] Accepts any form of a word regardless of capitalization (i.e. “Rock” “rock” roCk”)
-- [ ] Keeps track of total wins and losses, until the page refreshes. 
-- [ ] Create a game with more variety in throwing options. Example: [Rock-Paper-Scissors-Lizard-Spock](http://en.wikipedia.org/wiki/Rock-paper-scissors-lizard-Spock)
+- [ ] Keeps track of number of guesses
 
 ## References/Tools
 * [Advanced Reference Table]()
 * [Script Tag](http://javascript.crockford.com/script.html)
 * [How Jquery Works](http://learn.jquery.com/about-jquery/how-jquery-works/)
 * [JQuery Events](http://api.jquery.com/category/events/)
-* [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+* [Math.random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
