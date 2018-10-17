@@ -50,6 +50,7 @@ In this unit, coders will create a game to simulate guessing a safe's code. The 
 - [ ] Style the page to fit your personality
 - [ ] Validates input so that it will return “Not valid input” if the user types in a wrong choice. 
 - [ ] Keeps track of number of guesses
+- [ ] Tell the user whether each number entered is lower or higher than the correct number
 
 ## References/Tools
 * [Advanced Reference Table]()
