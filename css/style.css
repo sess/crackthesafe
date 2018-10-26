@@ -4,6 +4,8 @@ body{
     padding:0;
     height:100%;
     width:100%;
+    font-family: 'Ubuntu', sans-serif;
+    /*background-color:#663300;*/
 }
 
 h1 { 
@@ -47,6 +49,12 @@ input
 }
 
 .safe{
+    margin:0;
+    height:250px;
+}
+
+
+/*.safe{
     background-color:darkgrey;
     border:solid darkgrey;
     height:250px;
@@ -60,6 +68,14 @@ input
     border-radius:100%;
     width:10%;
     height:10%;
+    
+}
+
+#l1,
+#l2,
+#l3,
+#l4{
+    margin:10px;
 }
 
 .door{
@@ -69,3 +85,12 @@ input
     height:100%;
     width:100%;
 }
+
+
+.insideSafe{
+    background-color:gold;
+    border:solid gold;
+    border-radius:100%;
+    height:100%;
+    width:100%;
+} */
