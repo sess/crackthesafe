@@ -94,7 +94,7 @@ $("#verify").click(function(){
     }
     
     if(numbersCorrect === 4){
-        $(".safe").attr("src","/images/openedSafe.jpg");
+        $(".safe").attr("src","openedSafe.jpg");
         $("#results").text("unlocked");
     }else{
         $("#results").text("locked");    
