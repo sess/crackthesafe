@@ -19,13 +19,14 @@
         5. Add divs to record user choice. 
         6. Add a div to record correct number counts and winner
      -->
-  <h1>Crack the safe</h1>
+  <p class="guesses">attempts: <span id="guesses">0</span></p>
+  <h1>crack the safe</h1>
   <div class="row">
   
-      <img class="safe" src="https://i5.walmartimages.com/asr/437bf5f5-0a2d-4404-aee1-a67188f6c8da_1.6a7ade55e005dab04b598f721bbabc1b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF">
+      <img class="safe" src="/images/closedSafe.jpg">
       
 
-      <h3>Please Submit Your Choice Below</h3>
+      <h3>enter passcode:</h3>
       <div class="inputBoxes">
         <input id="number1">
         <input id="number2">
@@ -33,12 +34,12 @@
         <input id="number4">
       </div>
       <div class="buttons">
-            <button id="verify">Verify!</button>
+            <button id="verify">verify</button>
       </div>
       <div>
-        <h4>User Choice</h4>
+        <h4>previous input</h4>
         <p id="userChoice"></p>
-        <h4>Results</h4>
+        <h4>results:</h4>
         <div id="results"></div>
       </div>
       

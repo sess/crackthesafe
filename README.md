@@ -14,37 +14,37 @@ In this unit, coders will create a game to simulate guessing a safe's code. The 
 - [x] Make your site live on gh-pages
 
 ### HTML
-- [ ] Add any more HTML elements you will need to the page
+- [x] Add any more HTML elements you will need to the page
 
 ### JavaScript
-- [ ] Add a click handler that displays the value of each number input within the div with the id `#userChoice`
+- [x] Add a click handler that displays the value of each number input within the div with the id `#userChoice`
 
 #### Wrap
-- [ ] Push your changes!
-- [ ] Save and submit your website using the link on the Daily Session Document.
+- [x] Push your changes!
+- [x] Save and submit your website using the link on the Daily Session Document.
 
 ## Day 2
 
 ### Javascript 
 
 - [x] Outside of your click handler, declare 4 variables (randomNumber1, randomNumber2, randomNumber3, randomNumber4) and generate a random number for each variable. Be sure to save these as strings though! 
-- [ ] Outside of your click handler, declare 4 variables (numberGuess1, numberGuess2, numberGuess3, numberGuess4) and assign them values of empty strings
-- [ ] Outside of your click handler, declare 2 variables (numbersCorrect, numbersInPlace) and assign them values of 0
-- [ ] In your click handler, store each input value in the corresponding numberGuess variable
-- [ ] In your click handler, display each input value in userChoice
+- [x] Outside of your click handler, declare 4 variables (numberGuess1, numberGuess2, numberGuess3, numberGuess4) and assign them values of empty strings
+- [x] Outside of your click handler, declare 2 variables (numbersCorrect, numbersInPlace) and assign them values of 0
+- [x] In your click handler, store each input value in the corresponding numberGuess variable
+- [x] In your click handler, display each input value in userChoice
 #### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Day 3
 
 ## JavaScript
-- [ ] Write a conditional statement that compares each number to see if the number is correct for that position and to see if the number is correct for any other position
-- [ ] Display the amount of correct numbers, and how many numbers were in the correct place
-- [ ] If the correct code was entered, display a message to the user letting them know they won
+- [x] Write a conditional statement that compares each number to see if the number is correct for that position and to see if the number is correct for any other position
+- [x] Display the amount of correct numbers, and how many numbers were in the correct place
+- [x] If the correct code was entered, display a message to the user letting them know they won
 
 
 #### Wrap
-- [ ] Push your changes!
+- [x] Push your changes!
 
 ## Projects Extensions:
 - [ ] Style the page to fit your personality
