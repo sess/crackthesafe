@@ -93,17 +93,37 @@ $("#verify").click(function(){
         console.log(numbersCorrect);
     }
     
-    if(numbersCorrect === 4){
-        $(".safe").attr("src","openedSafe.jpg");
-        $("#results").text("unlocked");
+    
+    if(guesses < 6){
+        $(".guesses").css("color","yellow");
+    }else if(guesses >= 6 &&  guesses < 12){
+        $(".guesses").css("color","grey");
+    }else if(guesses >= 12 && guesses < 18){
+        $(".guesses").css("color","brown");  
     }else{
-        $("#results").text("locked");    
+        $(".guesses").css("color","black");
     }
     
+    
+       
+    if(numbersCorrect === 4 && guesses <= 6){
+        $(".safe").attr("src","openedSafe.jpg");
+        $("#results").text("unlocked! gold star!");
+    }else if(numbersCorrect === 4  && guesses >=7 && guesses <= 12){
+        $(".safe").attr("src","openedSafe.jpg");
+        $("#results").text("unlocked! silver trophy!");
+    }else if(numbersCorrect === 4  && guesses >= 13 && guesses <= 18){
+        $(".safe").attr("src","openedSafe.jpg");
+        $("#results").text("unlocked!");
+    }else if(numbersCorrect === 4  && guesses >= 19){
+        $(".safe").attr("src","openedSafe.jpg");
+        $("#results").text("unlocked! play again and try for less attempts");
+    }else{
+        $("#results").text("locked");
+        guesses = guesses + 1;
+        $("#guesses").text(guesses);
+        
+    }
     numbersCorrect = 0;
     console.log(numbersCorrect);
-    
-    guesses = guesses + 1;
-    
-    $("#guesses").text(guesses);
 });
